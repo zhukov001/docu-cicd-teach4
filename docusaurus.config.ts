@@ -17,7 +17,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ivzhukov', // Usually your GitHub org/user name.
+  organizationName: 'zhukov001', // Usually your GitHub org/user name.
   projectName: 'docu-cicd-teach4', // Usually your repo name.
 
   onBrokenLinks: 'throw',
