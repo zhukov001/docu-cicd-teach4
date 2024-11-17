@@ -131,9 +131,17 @@ A commit in Git saves changes to your project, creating a snapshot of your files
 :::
 
 This commit will trigger the action defined in the `pages.yaml` file. You can watch the process and debug it if needed by going to the `Actions` tab in GitHub. From there, you can click on a specific workflow run to see the details and check if everything is working as expected.
+
+For example here you can see that one workflow is running.
 ![Deploy](./img/gh_deploy_012.png)
+
+If you click on specific workflow you will additional on which step is the current workflow.
 ![Deploy](./img/gh_deploy_013.png)
+
+You can even see a breakdown of each step and see warnings and errors. This is very useful to identify the problem if you get stuck at one of the workflow steps.
 ![Deploy](./img/gh_deploy_014.png)
+
+If everything went well during our deployment, you should see a green tick. This indicates that the process has been completed successfully.
 ![Deploy](./img/gh_deploy_015.png)
 
 If the workflow completes without any errors, you can visit the link mentioned earlier to view the freshly generated website. It should look like this!
