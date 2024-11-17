@@ -116,7 +116,7 @@ Inside `docusaurus.config.ts`, you can configure things like:
 - *Navbar and footer:* Define the links and structure for your site's navigation bar and footer.
 - *Plugins:* Enable extra features like search, analytics, or custom page generation.
 - *Localization:* Configure multi-language support for your site.
-- 
+
 This file is crucial for customizing the functionality and appearance of your Docusaurus site.
 :::
 
