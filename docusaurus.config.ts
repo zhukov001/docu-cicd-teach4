@@ -81,39 +81,34 @@ const config: Config = {
           label: 'Tutorial',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Useful links',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Markdown playground',
+              href: 'https://markdownlivepreview.com',
+            },
+            {
+              label: 'Docusaurus playground',
+              href: 'https://docusaurus.new/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Examples',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'On GitHub',
+              href: 'https://ivzhukov.github.io/perf-analysis-hands-on/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'On GitLab',
+              href: 'https://zhukov1.pages.jsc.fz-juelich.de/intro2sc-handson/2024_11/',
             },
           ],
         },
@@ -125,8 +120,8 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'TEACH 4',
+              href: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
             },
           ],
         },
