@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Hello TEACH 4 🥳',
+  title: 'TEACH 4',
   tagline: 'Crafting documentation with Docusaurus, GitHub Pages, and CI/CD',
   favicon: 'img/favicon.ico',
 
