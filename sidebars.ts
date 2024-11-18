@@ -28,6 +28,20 @@ const sidebars: SidebarsConfig = {
     },
   ],
    */
+    tutorialSidebar: [
+    'github',
+    'fork_and_deploy',
+    'md_intro',
+    'docusaurus_intro',
+    {
+      type: 'category',
+      label: 'Tutorial',
+      items: ['tutorial-basics/create-a-document'],
+    },
+    'task',
+    // highlight-next-line
+    'hello',
+  ],
 };
 
 export default sidebars;
