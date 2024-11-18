@@ -40,9 +40,9 @@ This is my **first Docusaurus document**!
 ```
 Is it in the expected place? Change if necessary. 
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+It is also possible to create your sidebar explicitly in `sidebars.ts` (you can simply uncomment corresponding section in `sidebars.ts` file):
 
-```js title="sidebars.js"
+```ts title="sidebars.ts"
 export default {
   tutorialSidebar: [
     'github',
@@ -60,10 +60,10 @@ export default {
   ],
 };
 ```
+Which has precedence in Docusaurus: `sidebars.ts` or the `position` attribute in Markdown files?
 
 To add or fix a link in the Docusaurus footer, edit the `docusaurus.config.ts` file in your project. Look for the `themeConfig` section, and find the footer object. 
 
 :::info
-
 One of the links in the current implementation is not correct, please find and correct it.
 :::
