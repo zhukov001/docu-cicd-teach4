@@ -20,7 +20,13 @@ Create a Markdown file at `docs/hello.md`:
 This is my **first Docusaurus document**!
 ```
 
-A new document is now available at `https://<my_git_account>.github.io/docu-cicd-teach4/docs/hello`.
+:::info[Reminder]
+
+The `**` stands for bold font, as we learned in [Introduction to Markdown](../md_intro.md).
+
+:::
+
+After committing and the update of the website, a new document is now available at `https://<my_git_account>.github.io/docu-cicd-teach4/docs/hello`.
 
 ## Configure the Sidebar
 
@@ -60,10 +66,13 @@ export default {
   ],
 };
 ```
+
+:::info[Excercise]
 Which has precedence in Docusaurus: `sidebars.ts` or the `position` attribute in Markdown files?
+:::
 
 To add or fix a link in the Docusaurus footer, edit the `docusaurus.config.ts` file in your project. Look for the `themeConfig` section, and find the footer object. 
 
-:::info
+:::info[Excercise]
 One of the links in the current implementation is not correct, please find and correct it.
 :::

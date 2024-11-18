@@ -10,7 +10,6 @@ GitHub is a web-based platform for version control and collaboration, built on t
 
 :::
 
-
 Go to the github.com page and click on "Sign up"
 ![Create account](./img/gh_account_001.png)
 

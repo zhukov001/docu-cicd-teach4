@@ -17,7 +17,7 @@ When you fork a repository on GitHub, it creates an independent copy of the orig
 ![Deploy](./img/gh_deploy_001.png)
 ![Deploy](./img/gh_deploy_002.png)
 
-After successful forking you should see in the top left corner your login name and below a lin where it was forked from, e.g. like on the picture forked from `ivzhukov/docu-cicd-teach4`.
+After successful forking you should see in the top left corner your login name and below a line where it was forked from, e.g. like on the picture forked from `ivzhukov/docu-cicd-teach4`.
 
 When you fork a repository, GitHub disables Actions (automated workflows like tests or deployments) by default for safety. To use them, we need to enable Actions for the forked repository as shown in the picture. Before doing this, it's a good idea to review the workflows to ensure they are safe and won't cause issues when they run.
 
@@ -29,7 +29,7 @@ When you fork a repository, GitHub disables Actions (automated workflows like te
 
 GitHub Actions are defined in the `.github/workflows` directory of a repository. If you open the `pages.yaml` file within that directory, you will find the full description of the workflow. This file contains the steps and configuration details for automating tasks. Each step in the file outlines specific actions to be performed, such as setting up dependencies, building the site, and deploying it.
 
-  ```
+  ```yaml
 name: Deploy static page
 
 on:
@@ -120,10 +120,10 @@ Inside `docusaurus.config.ts`, you can configure things like:
 This file is crucial for customizing the functionality and appearance of your Docusaurus site.
 :::
 
-Modify user name from `ivzhukov` to your user name, feel free to modify `title` and `tagline` as well. Once you done with the changes click on `Commit changes` button.
+Modify `organizationName` from `ivzhukov` to your user name, feel free to modify `title` and `tagline` as well. Once you're done with the changes click on `Commit changes` button.
 ![Deploy](./img/gh_deploy_010.png)
 
-Provide meaningful commit message and click on `Commit`. 
+Provide meaningful commit message and click on `Commit`.
 ![Deploy](./img/gh_deploy_011.png)
 
 :::info
