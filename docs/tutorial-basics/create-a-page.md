@@ -12,5 +12,5 @@ Create a new file at `src/pages`:
 This is a Markdown page
 ```
 
-After successful creation of file and committing the changes
-A new page is will appear at `https://<my_git_account>.github.io/docu-cicd-teach4/my-markdown-page`.
+After successful creation of file and committing the changes a new page will appear at 
+`https://<my_git_account>.github.io/docu-cicd-teach4/my-markdown-page`.
