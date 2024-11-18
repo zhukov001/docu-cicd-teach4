@@ -39,6 +39,13 @@ sidebar_position: 3
 This is my **first Docusaurus document**!
 ```
 
+To add or fix a link in the Docusaurus footer, edit the `docusaurus.config.ts` file in your project. Look for the `themeConfig` section, and find the footer object. 
+
+:::info
+
+One of the links in the current implementation is not correct, please find and correct it.
+:::
+
 It is also possible to create your sidebar explicitly in `sidebars.js`:
 
 ```js title="sidebars.js"
