@@ -18,30 +18,20 @@ const sidebars: SidebarsConfig = {
 
   // But you can create a sidebar manually
   /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-   */
     tutorialSidebar: [
-    'github',
-    'fork_and_deploy',
-    'md_intro',
-    'docusaurus_intro',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-    'task',
-    // highlight-next-line
-    'hello',
+      'task',
+      'github',
+      'fork_and_deploy',
+      'md_intro',
+      'docusaurus_intro',
+      {
+        type: 'category',
+        label: 'Tutorial',
+        items: ['tutorial-basics/create-a-document'],
+      },
+      'hello',
   ],
+  */
 };
 
 export default sidebars;
