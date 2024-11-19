@@ -70,9 +70,3 @@ export default {
 :::info[Excercise]
 Which has precedence in Docusaurus: `sidebars.ts` or the `position` attribute in Markdown files?
 :::
-
-To add or fix a link in the Docusaurus footer, edit the `docusaurus.config.ts` file in your project. Look for the `themeConfig` section, and find the footer object. 
-
-:::info[Excercise]
-One of the links in the current implementation is not correct, please find and correct it.
-:::
