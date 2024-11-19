@@ -17,7 +17,7 @@ When you fork a repository on GitHub, it creates an independent copy of the orig
 ![Deploy](./img/gh_deploy_001.png)
 ![Deploy](./img/gh_deploy_002.png)
 
-After successful forking you should see in the top left corner your login name and below a line where it was forked from, e.g. like on the picture forked from `ivzhukov/docu-cicd-teach4`.
+After successful forking you should see in the top left corner your login name and below a line where it was forked from, e.g. like on the picture `forked from ivzhukov/docu-cicd-teach4`.
 
 When you fork a repository, GitHub disables Actions (automated workflows like tests or deployments) by default for safety. To use them, we need to enable Actions for the forked repository as shown in the picture. Before doing this, it's a good idea to review the workflows to ensure they are safe and won't cause issues when they run.
 
@@ -71,15 +71,15 @@ jobs:
         run: yarn build
       # Build steps
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5.0.0
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3.0.1
         with:
           # Specify build output path
           path: build
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4.0.5
   ```
 The provided GitHub Actions script automates deploying a static site to GitHub Pages whenever there is a push to the `main` branch.
 
