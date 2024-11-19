@@ -22,10 +22,10 @@ Go to the github.com page and click on "Sign up"
 Enter your email and click on "Continue"
 ![Create account](./img/gh_account_002.png)
 
-Select strong password
+Choose strong password
 ![Create account](./img/gh_account_003.png)
 
-Select username
+Choose username
 ![Create account](./img/gh_account_004.png)
 
 Verify that you are not a robot
