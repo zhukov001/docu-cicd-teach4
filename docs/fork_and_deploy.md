@@ -4,10 +4,8 @@ sidebar_position: 2
 
 # Deploy my first website on GitHub
 
-Login with your GitHub account and open the following repository 
-```
-https://github.com/ivzhukov/docu-cicd-teach4
-```
+Login with you GitHub account and open the following repository 
+<a href="https://github.com/ivzhukov/docu-cicd-teach4" target="_blank">https://github.com/ivzhukov/docu-cicd-teach4</a>
 then make a fork of it.
 
 :::info
