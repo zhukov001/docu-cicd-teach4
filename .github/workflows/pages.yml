@@ -34,13 +34,6 @@ jobs:
       # Checkout a Git repository at a particular version
       - name: Checkout
         uses: actions/checkout@v4
-      # Setup a Node.js environment by adding problem matchers 
-      # and optionally downloading and adding it to the PATH
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20.x
-          cache: yarn
       # Install dependencies listed in the package.json file
       # of the project. Creates a node_modules directory where 
       # the installed packages are stored.
