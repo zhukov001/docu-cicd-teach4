@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Deploy my first website on GitHub
 
-Login with you GitHub account and open the following repository 
+Login with your GitHub account and open the following repository 
 ```
 https://github.com/ivzhukov/docu-cicd-teach4
 ```
