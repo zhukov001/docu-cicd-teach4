@@ -19,9 +19,10 @@ When you fork a repository on GitHub, it creates an independent copy of the orig
 
 After successful forking you should see in the top left corner your login name and below a line where it was forked from, e.g. like on the picture `forked from ivzhukov/docu-cicd-teach4`.
 
+![Deploy](./img/gh_deploy_003.png)
+
 When you fork a repository, GitHub disables Actions (automated workflows like tests or deployments) by default for safety. To use them, we need to enable Actions for the forked repository as shown in the picture. Before doing this, it's a good idea to review the workflows to ensure they are safe and won't cause issues when they run.
 
-![Deploy](./img/gh_deploy_003.png)
 ![Deploy](./img/gh_deploy_004.png)
 
 <details>
