@@ -4,6 +4,12 @@ sidebar_position: 1
 
 # How to create GitHub account
 
+:::tip
+
+We will use GitHub for this tutorial. If you already have an account, you can skip this step.
+
+:::
+
 :::info
 
 GitHub is a web-based platform for version control and collaboration, built on top of Git. It allows developers to store, manage, and track changes to code, collaborate with others, and host projects publicly or privately. GitHub also provides features like pull requests, issues, and actions for continuous integration, making it a central hub for software development.
