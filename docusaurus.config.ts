@@ -99,6 +99,14 @@ const config: Config = {
               label: 'Docusaurus playground',
               href: 'https://docusaurus.new/',
             },
+            {
+              label: 'Docusaurus community resources',
+              href: 'https://docusaurus.io/community/resources',
+            },
+            {
+              label: 'Docusaurus showcase',
+              href: 'https://docusaurus.io/showcase',
+            },
           ],
         },
         {
@@ -111,14 +119,6 @@ const config: Config = {
             {
               label: 'On GitLab',
               href: 'https://zhukov1.pages.jsc.fz-juelich.de/intro2sc-handson/2024_11/',
-            },
-            {
-              label: 'Docusaurus community resources',
-              href: 'https://docusaurus.io/community/resources',
-            },
-            {
-              label: 'Docusaurus showcase',
-              href: 'https://docusaurus.io/showcase',
             },
           ],
         },

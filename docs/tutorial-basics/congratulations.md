@@ -16,7 +16,7 @@ Docusaurus has **much more to offer**!
 - Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
 - Add a [search bar](https://docusaurus.io/docs/search)
 
-:::hint
+:::info[Hint]
 
 You can enable local search using the [Docusaurus lunr search](https://github.com/praveenn77/docusaurus-lunr-search) plugin by uncommenting the relevant line in `docusaurus.config.ts`.
 
