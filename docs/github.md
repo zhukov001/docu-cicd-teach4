@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # How to create GitHub account
 
-:::tip
+:::info
 
 We will use GitHub for this tutorial. If you already have an account, you can skip this step.
 
