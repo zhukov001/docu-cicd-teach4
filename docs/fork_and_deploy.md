@@ -22,7 +22,7 @@ After successful forking you should see in the top left corner your login name a
 When you fork a repository, GitHub disables Actions (automated workflows like tests or deployments) by default for safety. To use them, we need to enable Actions for the forked repository as shown in the picture. Before doing this, it's a good idea to review the workflows to ensure they are safe and won't cause issues when they run.
 
 <details>
-  <summary>Open me for more details!</summary>
+  <summary>Open me for review!</summary>
 
 GitHub Actions are defined in the `.github/workflows` directory of a repository. If you open the `pages.yaml` file within that directory, you will find the full description of the workflow. This file contains the steps and configuration details for automating tasks. Each step in the file outlines specific actions to be performed, such as setting up dependencies, building the site, and deploying it.
 
@@ -63,13 +63,6 @@ jobs:
       # Checkout a Git repository at a particular version
       - name: Checkout
         uses: actions/checkout@v4
-      # Setup a Node.js environment by adding problem matchers 
-      # and optionally downloading and adding it to the PATH
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20.x
-          cache: yarn
       # Install dependencies listed in the package.json file
       # of the project. Creates a node_modules directory where 
       # the installed packages are stored.
