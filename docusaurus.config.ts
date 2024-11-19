@@ -31,7 +31,7 @@ const config: Config = {
     locales: ['en'],
   },
 
-  // plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve('docusaurus-lunr-search')],
 
   presets: [
     [
@@ -111,6 +111,14 @@ const config: Config = {
             {
               label: 'On GitLab',
               href: 'https://zhukov1.pages.jsc.fz-juelich.de/intro2sc-handson/2024_11/',
+            },
+            {
+              label: 'Docusaurus community resources',
+              href: 'https://docusaurus.io/community/resources',
+            },
+            {
+              label: 'Docusaurus showcase',
+              href: 'https://docusaurus.io/showcase',
             },
           ],
         },
