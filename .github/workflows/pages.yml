@@ -16,35 +16,51 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+# Define a job
 jobs:
   deploy:
+    # Specifies the environment where the deployment happens.
+    # It is useful for managing deployment environments
+    # like staging, production, or custom ones.
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
+    
+    # Specify the runner environment
     runs-on: ubuntu-latest
 
+    # Execute sequence of the following steps    
     steps:
+      # Checkout a Git repository at a particular version
       - name: Checkout
         uses: actions/checkout@v4
-      # Build steps
+      # Setup a Node.js environment by adding problem matchers 
+      # and optionally downloading and adding it to the PATH
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20.x
           cache: yarn
+      # Install dependencies listed in the package.json file
+      # of the project. Creates a node_modules directory where 
+      # the installed packages are stored.
+      # Updates the yarn.lock file if needed, unless otherwise specified.
       - name: Install dependencies
         run: yarn install --frozen-lockfile --non-interactive
+      # Compile or package a project for production
       - name: Build
         run: yarn build
-      # Build steps
+      # Enable Pages, extract various metadata about a site, 
+      # and configure some supported static site generators
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
+      # Prepare your static assets to be deployed to GitHub Pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
           # Specify build output path
           path: build
+      # Deploy an artifact as a GitHub Pages site    
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4.0.5
