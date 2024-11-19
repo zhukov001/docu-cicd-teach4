@@ -102,6 +102,8 @@ The main deployment job checks out the code, sets up `Node.js` (It allows to run
 
 This setup allows automatic building and publishing of the static site whenever updates are pushed to main.
 
+If you want to learn more about GitHub Actions click [here](https://docs.github.com/en/actions).
+
 </details>
 
 ![Deploy](./img/gh_deploy_004.png)
@@ -142,7 +144,7 @@ Provide meaningful commit message and click on `Commit`.
 ![Deploy](./img/gh_deploy_011.png)
 
 :::info
-A commit in Git saves changes to your project, creating a snapshot of your files. A commit message describes what changes have been made. A strong message is important because it helps others understand the purpose of the changes, making it easier to track the project's history and collaborate effectively.
+A commit in Git saves changes to your project, creating a snapshot of your files. A commit message describes what changes have been made. A meaningful and clear message is important because it helps others understand the purpose of the changes, making it easier to track the project's history and collaborate effectively.
 :::
 
 This commit will trigger the action defined in the `pages.yaml` file. You can watch the process and debug it if needed by going to the `Actions` tab in GitHub. From there, you can click on a specific workflow run to see the details and check if everything is working as expected.
@@ -150,7 +152,7 @@ This commit will trigger the action defined in the `pages.yaml` file. You can wa
 For example here you can see that one workflow is running.
 ![Deploy](./img/gh_deploy_012.png)
 
-If you click on specific workflow you will additional on which step is the current workflow.
+If you click on specific workflow you will get additional information on which step is the current workflow.
 ![Deploy](./img/gh_deploy_013.png)
 
 You can even see a breakdown of each step and see warnings and errors. This is very useful to identify the problem if you get stuck at one of the workflow steps.
@@ -159,7 +161,7 @@ You can even see a breakdown of each step and see warnings and errors. This is v
 If everything went well during our deployment, you should see a green tick. This indicates that the process has been completed successfully.
 ![Deploy](./img/gh_deploy_015.png)
 
-If the workflow completes without any errors, you can visit the link mentioned earlier to view the freshly generated website. It should look like this!
+If the workflow completes without any errors, you can visit the link listed below the deploy action (or in the "about" section of the repo, which you updated before). It should look like this!
 ![Deploy](./img/gh_deploy_016.png)
 
 Congratulations! You have successfully deployed your first Docusaurus website on GitHub Pages.
