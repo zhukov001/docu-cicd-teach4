@@ -10,6 +10,6 @@ Docusaurus is an open-source tool for building documentation websites. It helps 
 
 ## Getting Started
 
-If you want to start by creating a new **page/document/blog**, click [here](./tutorial-basics/create-a-page.md).
+To see what Docusaurus is capable and check out what is possible, visit the [playground](https://docusaurus.new) on the Docusaurus website.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+To learn how to create your own, click [here](./tutorial-basics/create-a-page.md) or go to the next step.
