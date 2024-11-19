@@ -22,7 +22,7 @@ This is my **first Docusaurus document**!
 
 :::info[Reminder]
 
-The `**` stands for bold font, as we learned in [Introduction to Markdown](../md_intro.md).
+The `**(...)**` stands for bold font, as we learned in [Introduction to Markdown](../md_intro.md).
 
 :::
 
@@ -32,7 +32,7 @@ After committing and the update of the website, a new document is now available 
 
 Docusaurus automatically **creates a sidebar** from the `docs` folder.
 
-Add metadata to customize the sidebar label and position:
+The sidebar of a page can be customized via metadata on the page itself. For example, to change its label and position, you can use:
 
 ```md title="docs/hello.md" {1-4}
 ---
