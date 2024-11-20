@@ -91,7 +91,7 @@ The provided GitHub Actions script automates deploying a static site to GitHub P
 
 First, it sets permissions for the GitHub token to read the repository content and write to GitHub Pages. It uses concurrency control to ensure only one deployment runs at a time, canceling any ongoing ones if a new push is detected.
 
-The main deployment job checks out the code, sets up `Node.js` (It allows to run JavaScript on the server. It's needed in GitHub to build and run projects that use JavaScript, like static websites or web apps.), installs dependencies using `yarn`, and builds the static site. It then configures GitHub Pages and uploads the build output from the build directory as an artifact (the files generated during the build process). Finally, the script deploys this artifact to GitHub Pages, making the site live.
+The main deployment job checks out the code, installs dependencies using `yarn`, and builds the static site. It then configures GitHub Pages and uploads the build output from the build directory as an artifact (the files generated during the build process). Finally, the script deploys this artifact to GitHub Pages, making the site live.
 
 This setup allows automatic building and publishing of the static site whenever updates are pushed to main.
 
