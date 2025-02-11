@@ -2,7 +2,7 @@ import React from 'react';
 import Giscus from "@giscus/react";
 import React from 'react';
 import Giscus from "@giscus/react";
-import { useColorMode } from '@docusaurus/theme-common';
+import { useBlogPost } from '@docusaurus/plugin-content-blog/client';
 
 export default function GiscusComponent() {
   const { colorMode } = useColorMode();
