@@ -1,12 +1,12 @@
 import React from 'react';
-import { useDoc } from '@docusaurus/plugin-content-docs/client';
+import { useDocItem } from '@docusaurus/plugin-content-docs/client';
 import DocItem from '@theme-original/DocItem';
 import GiscusComponent from '@site/src/components/GiscusComponent';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 
 
 export default function DocItemWrapper(props) {
-  const { metadata, isDocPage } = useDoc()
+  const { metadata, isDocItem } = useDocItem()
   const isBrowser = useIsBrowser();
 
   const { frontMatter, slug, title } = metadata
@@ -14,7 +14,7 @@ export default function DocItemWrapper(props) {
   return (
     <>
       <DocItem {...props} />
-      {(enableComments && isDocPage) && (
+      {(enableComments && isDocItem) && (
         <GiscusComponent />
       )}
     </>
