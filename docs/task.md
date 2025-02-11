@@ -1,5 +1,6 @@
 ---
 sidebar_position: 6
+enableComments: true # for Gisqus
 ---
 
 # Plan your lecture with Docusaurus
