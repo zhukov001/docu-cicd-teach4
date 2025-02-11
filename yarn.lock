@@ -3181,6 +3181,13 @@ commander@^8.3.0:
   resolved "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz"
   integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
 
+commentbox.io@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/commentbox.io/-/commentbox.io-2.1.0.tgz"
+  integrity sha512-qum1AMOQQrv9afPvGzpdHbHpDADBHeFS5lmy6/kMe1pS4+nHt+80VbuImjVNn4BJpG4WNbQmbbskGSnv0e3vyA==
+  dependencies:
+    qs "^6.5.2"
+
 common-path-prefix@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/common-path-prefix/-/common-path-prefix-3.0.0.tgz"
@@ -7150,7 +7157,7 @@ pupa@^3.1.0:
   dependencies:
     escape-goat "^4.0.0"
 
-qs@6.13.0:
+qs@^6.5.2, qs@6.13.0:
   version "6.13.0"
   resolved "https://registry.npmjs.org/qs/-/qs-6.13.0.tgz"
   integrity sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==

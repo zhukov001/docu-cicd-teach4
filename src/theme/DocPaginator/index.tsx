@@ -7,6 +7,6 @@ export default function DocPaginatorWrapper(props) {
         <>
             <DocPaginator {...props} />
             <CommentSection/>
-        </>;
+        </>
     );
 }
